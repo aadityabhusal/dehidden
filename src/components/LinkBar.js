@@ -1,9 +1,10 @@
 import { Button } from "./ui";
+import style from "../modules/header.module.css";
 
 export function LinkBar() {
   return (
-    <div className="linkbar">
-      <div className="link-text">https://de.dehidden.com/qwerty</div>
+    <div className={style.linkbar}>
+      <div className={style.linktext}>https://de.dehidden.com/qwerty</div>
       <Button icon="copy" text="Copy" isPrimary />
     </div>
   );
