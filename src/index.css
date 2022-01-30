@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Caustenround", sans-serif;
+  line-height: 1.5;
+  background-color: rgb(10, 11, 23);
+  color: rgb(225, 222, 219);
+  background-image: url(https://6123e17b94094d00d26d6fc0--dehidden-nft.netlify.app/static/media/BG%20Gradientz.f61333d5.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
