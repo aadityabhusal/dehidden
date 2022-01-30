@@ -20,7 +20,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  height: 3rem;
+  /* height: 5rem; */
   width: 100%;
   box-sizing: border-box;
   padding: 1.25rem 1.9rem;
@@ -28,6 +28,45 @@ header {
 }
 
 .linkbar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 2.5rem;
+  padding: 0.7rem 1rem;
+  background-color: rgba(20, 21, 22, 0.5);
+}
+
+.link-text {
+  width: 220px;
+  overflow: auto;
+  margin: 0 1rem;
+}
+
+.link-text::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  padding: 0.7rem 2.5rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.primary {
+  background-color: rgb(177, 0, 45);
+  color: rgb(225, 222, 219);
+  box-shadow: rgb(182 4 47 / 70%) 0px 0px 20px;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 18px;
 }
 
 /* Container Section Styling */
