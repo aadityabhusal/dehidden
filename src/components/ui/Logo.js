@@ -1,3 +1,7 @@
 export function Logo() {
-  return <div>Logo</div>;
+  return (
+    <div>
+      <img src="/logo.svg" alt="Logo" />
+    </div>
+  );
 }

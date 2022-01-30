@@ -1,3 +1,3 @@
 export function LinkBar() {
-  return <div>LinkBar</div>;
+  return <div className="linkbar">LinkBar</div>;
 }

@@ -16,16 +16,21 @@ body {
   background-size: cover;
 }
 
+/* Header Section Styling */
 header {
   display: flex;
   justify-content: space-between;
   height: 3rem;
   width: 100%;
   box-sizing: border-box;
-  padding: 0.5rem 1.5rem;
+  padding: 1.25rem 1.9rem;
   position: fixed;
 }
 
+.linkbar {
+}
+
+/* Container Section Styling */
 .container {
   display: flex;
   height: 100vh;
@@ -40,12 +45,14 @@ header {
   padding-top: 4rem;
 }
 
+/* NFT Display Section Styling */
 .nft-display {
   flex: 1.1;
   box-shadow: rgb(0 0 0 / 20%) 0px 0px 1rem 0px;
   background-color: transparent;
 }
 
+/* Main Panel Section Styling */
 .main-panel {
   flex: 2;
 }
