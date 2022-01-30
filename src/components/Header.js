@@ -1,3 +1,11 @@
+import { LinkBar } from ".";
+import { Logo } from "./ui/Logo";
+
 export function Header() {
-  return <header>Header</header>;
+  return (
+    <header>
+      <Logo />
+      <LinkBar />
+    </header>
+  );
 }
