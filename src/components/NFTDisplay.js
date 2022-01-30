@@ -1,3 +1,3 @@
 export function NFTDisplay() {
-  return <div>NFTDisplay</div>;
+  return <div className="nft-display">NFTDisplay</div>;
 }
