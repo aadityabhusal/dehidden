@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .nftContainer {
@@ -17,9 +18,18 @@
 .nft {
   margin: 20px auto;
   height: 350px;
-  width: 280px;
+  width: 300px;
   border-radius: 16px;
+  background-color: #000000;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft img {
+  max-width: 70%;
+  max-height: 70%;
 }
 
 .projectName {
@@ -49,7 +59,7 @@
 
   .nft {
     height: 280px;
-    width: 320px;
+    width: 350px;
   }
 }
 

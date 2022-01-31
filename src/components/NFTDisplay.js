@@ -5,7 +5,9 @@ export function NFTDisplay() {
   return (
     <div className={style.nftDisplay}>
       <div className={style.nftContainer}>
-        <div className={style.nft}></div>
+        <div className={style.nft}>
+          <img src="/images/nft.png" alt="NFT" />
+        </div>
         <div className={style.projectName}>Shards of ETH</div>
         <div className={style.nftName}>To the Moon</div>
         <div className={style.nftNumber}>#001</div>
