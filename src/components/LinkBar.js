@@ -6,6 +6,7 @@ const url = "https://run.mocky.io/v3/8321cc85-81e6-45c6-bd23-33e85c504c7d";
 export function LinkBar() {
   const [linkText, setLinkText] = useState("Loading...");
   const [showCopied, setShowCopied] = useState(false);
+
   useEffect(() => {
     async function fetchText() {
       try {

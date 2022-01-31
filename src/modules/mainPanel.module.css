@@ -20,6 +20,7 @@ a {
 
 .utility {
   display: flex;
+  align-items: center;
   color: rgb(225, 222, 219);
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 1.5rem;
@@ -54,4 +55,15 @@ a {
 
 .utilityIcon img {
   height: 3rem;
+}
+
+@media screen and (max-width: 991px) {
+  .subHeading {
+    display: none;
+  }
+
+  .utilityContainer {
+    margin-top: 3rem;
+    min-height: initial;
+  }
 }

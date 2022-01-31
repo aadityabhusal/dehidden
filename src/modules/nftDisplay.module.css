@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 1rem;
 }
 
 .nft {
@@ -36,4 +36,19 @@
   font-weight: 600;
   font-size: 32px;
   margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+  .nftDisplay {
+    flex: 1;
+    border-radius: 1.5rem;
+    margin: 6.25rem 3rem;
+    margin-bottom: 0;
+    padding: 1.25rem;
+  }
+
+  .nft {
+    height: 280px;
+    width: 320px;
+  }
 }

@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   background-color: rgb(10, 11, 23);
   color: rgb(225, 222, 219);
-  background-image: url(https://6123e17b94094d00d26d6fc0--dehidden-nft.netlify.app/static/media/BG%20Gradientz.f61333d5.svg);
+  background-image: url(/public/images/background.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,7 +40,19 @@ body {
 
 .container {
   display: flex;
-  height: 100vh;
   box-sizing: border-box;
   align-items: stretch;
+}
+
+/* Responsive Design Section */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url(/public/images/mobileBackground.svg);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
 }
