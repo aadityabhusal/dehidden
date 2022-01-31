@@ -67,3 +67,12 @@ a {
     min-height: initial;
   }
 }
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 1.375rem;
+  }
+
+  .utilityList {
+    width: 85%;
+  }
+}

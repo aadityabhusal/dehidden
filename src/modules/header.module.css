@@ -27,15 +27,14 @@ header {
   display: none;
 }
 
-.copied {
-  position: absolute;
-  background-color: #ff2d62;
-  padding: 0.4rem 0.75rem;
-  border-radius: 0.75rem;
-  bottom: -2.6rem;
-  left: 7.5rem;
-  text-align: center;
-  transition: 0.4s ease;
-  font-weight: 700;
-  color: #f4f4f4;
+@media screen and (max-width: 991px) {
+  .linkbar {
+    padding: 0;
+    position: initial;
+    background-color: transparent;
+  }
+
+  .linktext {
+    display: none;
+  }
 }

@@ -26,3 +26,19 @@ button {
   width: 17px;
   height: 17px;
 }
+
+@media screen and (max-width: 991px) {
+  button[data-hidetext="true"] {
+    padding: 1rem;
+  }
+
+  [data-hidetext="true"] span {
+    display: none;
+  }
+
+  [data-hidetext="true"] .icon {
+    margin: 0;
+    width: 22px;
+    height: 22px;
+  }
+}

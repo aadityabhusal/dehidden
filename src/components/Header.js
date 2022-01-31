@@ -1,5 +1,5 @@
 import { LinkBar } from ".";
-import { Logo } from "./ui/Logo";
+import { Logo } from "./ui";
 import style from "../modules/header.module.css";
 export function Header() {
   return (
