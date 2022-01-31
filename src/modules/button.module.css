@@ -1,0 +1,28 @@
+button {
+  border: none;
+  outline: 0;
+  padding: 0.7rem 2.5rem;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.primary {
+  background-color: #ff2d62;
+  color: #f4f4f4;
+  box-shadow: 0 0 1.25rem rgb(250 35 87 / 70%);
+  transition: 0.3s ease-in-out;
+}
+
+.primary:hover {
+  background-color: #ff658b;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 17px;
+  height: 17px;
+}

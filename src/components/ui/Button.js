@@ -1,10 +1,13 @@
+import style from "../../modules/button.module.css";
+
 export function Button({ text, icon, isPrimary, handler = () => {} }) {
   return (
-    <button
-      className={`button ${isPrimary && "primary"}`}
-      onClick={(e) => handler(e)}
-    >
-      <img className="icon" src={`/icons/${icon}.svg`} alt={`${icon}icon`} />
+    <button className={isPrimary && style.primary} onClick={(e) => handler(e)}>
+      <img
+        className={style.icon}
+        src={`/icons/${icon}.svg`}
+        alt={`${icon}icon`}
+      />
       {text}
     </button>
   );
