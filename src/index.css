@@ -27,7 +27,7 @@
 
 body {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Caustenround", sans-serif;
   line-height: 1.5;
   background-color: rgb(10, 11, 23);
@@ -51,9 +51,14 @@ body {
 }
 
 .primary {
-  background-color: rgb(177, 0, 45);
-  color: rgb(225, 222, 219);
-  box-shadow: rgb(182 4 47 / 70%) 0px 0px 20px;
+  background-color: #ff2d62;
+  color: #f4f4f4;
+  box-shadow: 0 0 1.25rem rgb(250 35 87 / 70%);
+  transition: 0.3s ease-in-out;
+}
+
+.primary:hover {
+  background-color: #ff658b;
 }
 
 .icon {
@@ -68,10 +73,4 @@ body {
   height: 100vh;
   box-sizing: border-box;
   align-items: stretch;
-}
-
-.container > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

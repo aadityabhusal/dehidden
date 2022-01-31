@@ -1,8 +1,17 @@
 .mainPanel {
-  flex: 2;
+  flex: 65%;
+}
+
+.utilityContainer {
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.utilityList {
+  margin: 2rem 0;
+  width: 80%;
 }
 
 a {
@@ -11,11 +20,10 @@ a {
 
 .utility {
   display: flex;
-  width: 80%;
   color: rgb(225, 222, 219);
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 1.5rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   padding: 0.75rem;
 }
 
@@ -34,7 +42,7 @@ a {
 
 .utilityIcon {
   margin-right: 1rem;
-  background: rgba(40, 40, 40, 0.525);
+  background: rgba(30, 33, 34, 0.53);
   border-radius: 1rem;
   height: 5rem;
   width: 5rem;

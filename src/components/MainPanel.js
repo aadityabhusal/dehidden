@@ -4,9 +4,13 @@ import { utilities } from "../data/data";
 export function MainPanel() {
   return (
     <div className={style.mainPanel}>
-      {utilities.map((item) => (
-        <Utility key={item.id} data={item} />
-      ))}
+      <div className={style.utilityContainer}>
+        <div className={style.utilityList}>
+          {utilities.map((item) => (
+            <Utility key={item.id} data={item} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
