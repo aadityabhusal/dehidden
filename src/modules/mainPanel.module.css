@@ -15,8 +15,12 @@ a {
   color: rgb(225, 222, 219);
   background-color: rgba(0, 0, 0, 0.45);
   border-radius: 1.5rem;
-  margin: 1rem auto;
+  margin-bottom: 1rem;
   padding: 0.75rem;
+}
+
+.utilityText {
+  margin: 0.65rem 0;
 }
 
 .heading {
@@ -28,11 +32,18 @@ a {
   font-size: 20px;
 }
 
-.icon {
+.utilityIcon {
   margin-right: 1rem;
-  background: rgba(40, 40, 40, 0.5254901960784314);
+  background: rgba(40, 40, 40, 0.525);
   border-radius: 1rem;
   height: 5rem;
   width: 5rem;
-  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.utilityIcon img {
+  height: 3rem;
 }
