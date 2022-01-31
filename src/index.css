@@ -70,7 +70,8 @@ body {
   }
 
   .message {
-    bottom: -85vh;
+    bottom: calc(8rem - 100vh);
     left: calc(50% - 5rem);
+    font-weight: normal;
   }
 }
